@@ -7,6 +7,7 @@ window=tkinter.Tk()
 photo=PhotoImage(file="logo.png")
 window.iconphoto(False,photo)
 window.minsize(height=600,width=350)
+window.title("Secret Notes")
 
 def Encrypt():
     title=titleBox.get("1.0",tkinter.END).strip()
